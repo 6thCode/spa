@@ -1099,7 +1099,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 7rem;
+  padding: 0px 23rem;
 }
 .tinny-header p {
   color: #fff;
@@ -1122,11 +1122,22 @@ body {
   transition: all .3s;
   word-break: break-word;
   z-index: 1;
-  padding: 30px 29rem;
+  padding: 0px 23rem;
+  height: 85px;
 }
-@media (max-width: 767px) {
+@media (max-width: 992px) {
+  .divider-right {
+    display: none;
+  }
+  .tinny-header {
+    display: none;
+  }
   .cid-qIoWJ1MdFm .navbar-brand {
-    padding: 30px 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 85px;
   }
 }
 .cid-qIoWJ1MdFm .navbar-brand .navbar-caption {
